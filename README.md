@@ -8,7 +8,7 @@ Projeto final do Bootcamp da Rocketseat: um sistema para conectar entregadores e
 ## Backend
 
 ### Setup
-Abra o diretório `backend` no terminal e execute:
+Abra o diretório `backend` no terminal e execute::
 ```
 yarn
 # ou

@@ -1,0 +1,66 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env nodemon src/server.js",
+    "queue": "nodemon src/queue.js",
+    "dev:debug": "cross-env nodemon --inspect src/server.js",
+    "pretest": "cross-env NODE_ENV=test yarn sequelize db:migrate",
+    "test": "cross-env NODE_ENV=test jest",
+    "posttest": "cross-env NODE_ENV=test yarn sequelize db:migrate:undo:all",
+    "db:erase": "yarn sequelize db:migrate:undo:all",
+    "db:populate": "yarn sequelize db:migrate && yarn sequelize db:seed:all"
+  },
+  "dependencies": {
+    "@sentry/node": "5.12.2",
+    "bcryptjs": "^2.4.3",
+    "bee-queue": "^1.2.3",
+    "cors": "^2.8.5",
+    "date-fns": "^2.9.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3",
+    "sqlite3": "^4.1.1",
+    "youch": "^2.0.10",
+    "yup": "^0.28.1"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^25.1.1",
+    "cross-env": "^7.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "factory-girl": "^5.0.4",
+    "faker": "^4.1.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.12.1",
+    "supertest": "^4.0.2",
+    "timekeeper": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudi-azvd/fastfeet-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudi-azvd/fastfeet-backend/issues"
+  },
+  "homepage": "https://github.com/yudi-azvd/fastfeet-backend#readme"
+}
