@@ -6,7 +6,7 @@ Projeto final do Bootcamp da Rocketseat: um sistema para conectar entregadores e
 <img src="./frontend/.github/deliveries.png">
 
 ## Algumas considerações
-Sim, de fato não fiz a parte mobile. Me enrolei na minha organização. Não pretendo mais fazer esse projeto pra pegar o certificado, é mais pra receber o _feedback_ de vocês quanto à organização e "egenharia" do código, design e etc. E tirar umas dúvidas também.
+Sim, de fato não fiz a parte mobile (ainda vou fazer depois). Me enrolei na minha organização. Não pretendo mais fazer esse projeto pra pegar o certificado, é mais pra receber o _feedback_ de vocês quanto à organização e "egenharia" do código, design e etc. E tirar umas dúvidas também.
 
 As dúvidas estão nessa [página](https://www.notion.so/Rocketseat-8f694e501ee243098a75e86663472ce9) do Notion. Por favor, leia com atenção kkk.
 
