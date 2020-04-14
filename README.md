@@ -10,6 +10,8 @@ Sim, de fato não fiz a parte mobile (ainda vou fazer depois). Me enrolei na min
 
 As dúvidas estão nessa [página](https://www.notion.so/Rocketseat-8f694e501ee243098a75e86663472ce9) do Notion. Por favor, leia com atenção kkk.
 
+Além disso, o Header do frontend não é responsivo. Vou cuidar disso depois também.
+
 ### Baixar
 Baixe esse repositório com `git clone`
 
