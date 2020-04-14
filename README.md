@@ -10,6 +10,15 @@ Sim, de fato não fiz a parte mobile (ainda vou fazer depois). Me enrolei na min
 
 As dúvidas estão nessa [página](https://www.notion.so/Rocketseat-8f694e501ee243098a75e86663472ce9) do Notion. Por favor, leia com atenção kkk.
 
+### Baixar
+Baixe esse repositório com `git clone`
+
+```sh
+git clone https://github.com/yudi-azvd/fastfeet.git
+```
+
+Ou clicando no botão verde desta página.
+
 ## Backend
 
 ### Setup
