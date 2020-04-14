@@ -39,7 +39,7 @@ Postgres) para visualizar o banco de dados.
 * [Docker](https://www.docker.com/) para montar a imagem do banco de dados.
 
 #### Variáveis ambiente
-Duplique o arquivo `.env.example` e renomeie para `.env`. Então preencha as variáveis
+**Renomeie** o arquivo `.env.example` para `.env`. Então preencha as variáveis
 de acordo com as suas informações.
 
 Com [Docker](https://www.docker.com/products/docker-desktop) instalado é fácil criar uma imagem de banco de dados Postgres. Basta executar no terminal 
@@ -62,6 +62,14 @@ Não se esqueça de iniciar os bancos de dados Postgres e Redis.
 Para criar as tabelas do banco de dados e preenchê-las, execute
 
 ```sh
+yarn db:populate
+```
+
+Se alguma coisa der errado e você precisar desafazer o banco de dados, execute
+
+```sh
+yarn db:erase
+# e logo em seguida
 yarn db:populate
 ```
 
